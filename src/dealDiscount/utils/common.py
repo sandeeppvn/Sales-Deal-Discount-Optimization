@@ -10,7 +10,7 @@ from box import ConfigBox
 from pathlib import Path
 
 @ensure_annotations
-def read_yaml_file(file_name: Path) -> ConfigBox:
+def read_yaml(file_name: Path) -> ConfigBox:
     """Read yaml file and return a ConfigBox object
     
     Args:
@@ -49,7 +49,7 @@ def create_directories(dirs: list):
             logger.info(f"Created directory: {dir_path}")
 
 @ensure_annotations
-def save_json_file(file_name: Path, data: dict):
+def save_json(file_name: Path, data: dict):
     """Save json data
     
     Args:
@@ -61,7 +61,7 @@ def save_json_file(file_name: Path, data: dict):
         logger.info(f"Saved json file: {file_name}")
 
 @ensure_annotations
-def load_json_file(file_name: Path) -> ConfigBox:
+def load_json(file_name: Path) -> ConfigBox:
     """Load json file
     
     Args:
