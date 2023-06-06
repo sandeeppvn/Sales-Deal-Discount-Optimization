@@ -1,1 +1,18 @@
 openpyxl
+tensorflow
+pandas
+dvc
+notebook
+matplotlib
+seaborn
+scikit-learn
+pyyaml
+tqdm
+ensure==1.0.2
+python-box==6.0.2
+joblib
+types-PyYAML
+scipy
+Flask
+Flask-Cors
+-e .
